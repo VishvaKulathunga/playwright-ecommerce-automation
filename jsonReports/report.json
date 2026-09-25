@@ -1,0 +1,376 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "D:\\newPlaywright\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "D:\\newPlaywright\\playwright.config.ts",
+    "rootDir": "D:/newPlaywright",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/newPlaywright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "",
+        "name": "",
+        "testDir": "D:/newPlaywright",
+        "testIgnore": [],
+        "testMatch": [
+          "Landing.spec.ts",
+          "login.spec.ts",
+          "product.spec.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "jsonReports/report.json"
+        }
+      ],
+      [
+        "html",
+        {
+          "open": "always"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.63.0",
+    "workers": 1,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "tests\\Landing.spec.ts",
+      "file": "tests/Landing.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "navigating to the landing page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17054,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "✅ Successfully navigated to the Automation Exercise landing page.\n"
+                    },
+                    {
+                      "text": "📧 Using unique email: subaru-3e76513d-6b25-4a08-8abb-4ceb6923d91f@example.com\n"
+                    },
+                    {
+                      "text": "✅ Successfully filled the name and email address fields.\n"
+                    },
+                    {
+                      "text": "✅ Mr radio button is visible.\n"
+                    },
+                    {
+                      "text": "✅ Mr radio button is selected.\n"
+                    },
+                    {
+                      "text": "✅ Password field is not empty.\n"
+                    },
+                    {
+                      "text": "✅ Date of birth fields are filled.\n"
+                    },
+                    {
+                      "text": "✅ Newsletter checkbox is visible and checked.\n"
+                    },
+                    {
+                      "text": "✅ state fields are filled.\n"
+                    },
+                    {
+                      "text": "✅ City field is filled.\n"
+                    },
+                    {
+                      "text": "✅ Mobile number field is filled.\n"
+                    },
+                    {
+                      "text": "✅ Zip code field is filled.\n"
+                    },
+                    {
+                      "text": "✅ Company address field is filled.\n"
+                    },
+                    {
+                      "text": "✅ Create Account button is visible and clicked.\n"
+                    },
+                    {
+                      "text": "✅ User is redirected to the account created page.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-24T20:29:43.625Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\newPlaywright\\test-results\\tests-Landing-navigating-to-the-landing-page\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "47b1cf735ec9fe94bb3d-b4ed5c970f202107c89a",
+          "file": "tests/Landing.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\login.spec.ts",
+      "file": "tests/login.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "User navigating the ",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 15093,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "✅ Successfully navigated to the Automation Exercise landing page.\n"
+                    },
+                    {
+                      "text": "✅ Login Email field is visible.\n"
+                    },
+                    {
+                      "text": "✅ Login Password field is visible.\n"
+                    },
+                    {
+                      "text": "✅ User is successfully logged in and logout button is visible.\n"
+                    },
+                    {
+                      "text": "✅ User is successfully logged out and redirected to the landing page.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-24T20:30:01.022Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\newPlaywright\\test-results\\tests-login-User-navigating-the-\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b6dc33e290e5a0a43b1-c2ea3eef0da624713e2e",
+          "file": "tests/login.spec.ts",
+          "line": 5,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "tests\\product.spec.ts",
+      "file": "tests/product.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "User navigating to the product page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "",
+              "projectName": "",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 17600,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "✅ Successfully navigated to the Automation Exercise landing page.\n"
+                    },
+                    {
+                      "text": "✅ Login Email field is visible.\n"
+                    },
+                    {
+                      "text": "✅ Login Password field is visible.\n"
+                    },
+                    {
+                      "text": "✅ User is successfully logged in and logout button is visible.\n"
+                    },
+                    {
+                      "text": "➡️  Navigating to the products page...\n"
+                    },
+                    {
+                      "text": "✅ Products link is visible.\n"
+                    },
+                    {
+                      "text": "✅ Clicked on the Products link.\n"
+                    },
+                    {
+                      "text": "✅ User is successfully navigated to the product page.\n"
+                    },
+                    {
+                      "text": "➡️  Searching for product: winter top\n"
+                    },
+                    {
+                      "text": "✅ Search field is visible.\n"
+                    },
+                    {
+                      "text": "✅ Entered product name into the search field: winter top\n"
+                    },
+                    {
+                      "text": "✅ User is successfully searched for the product. winter top\n"
+                    },
+                    {
+                      "text": "✅ Searched product is displayed on the page. winter top\n"
+                    },
+                    {
+                      "text": "➡️  Opening product details page...\n"
+                    },
+                    {
+                      "text": "✅ \"View Product\" link is visible.\n"
+                    },
+                    {
+                      "text": "✅ Clicked on \"View Product\".\n"
+                    },
+                    {
+                      "text": "✅ Navigated to the product details page.\n"
+                    },
+                    {
+                      "text": "✅ User is successfully navigated to the product details page and verified the product details. winter top\n"
+                    },
+                    {
+                      "text": "✅ Product availability is verified as In Stock. winter top\n"
+                    },
+                    {
+                      "text": "✅ Quantity field is visible.\n"
+                    },
+                    {
+                      "text": "✅ Product quantity is 3\n"
+                    },
+                    {
+                      "text": "➡️  Adding product to cart...\n"
+                    },
+                    {
+                      "text": "✅ \"Add to cart\" button is visible.\n"
+                    },
+                    {
+                      "text": "✅ Clicked \"Add to cart\" button.\n"
+                    },
+                    {
+                      "text": "✅ Cart icon is visible in the header.\n"
+                    },
+                    {
+                      "text": "✅ Clicked the cart icon.\n"
+                    },
+                    {
+                      "text": "✅ Navigated to the shopping cart page.\n"
+                    },
+                    {
+                      "text": "✅ Product is visible in the cart.\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-09-24T20:30:16.150Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\newPlaywright\\test-results\\tests-product-User-navigating-to-the-product-page\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "03e0c03e6c09406839ad-3340fd94a0b3436e68e8",
+          "file": "tests/product.spec.ts",
+          "line": 6,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-24T20:29:43.127Z",
+    "duration": 50971.727,
+    "expected": 3,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
