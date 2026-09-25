@@ -7,7 +7,7 @@ export default defineConfig({
     workers: 1,
 
     use: {
-        headless: false,
+        
         screenshot: 'only-on-failure',
         video: 'on',
     },
